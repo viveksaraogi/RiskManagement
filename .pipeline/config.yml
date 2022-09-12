@@ -10,15 +10,15 @@
 ### General project setup
 ---
  general:
- pipeline: "sap-cloud-sdk" 
- buildTool: "mta"
+  pipeline: "sap-cloud-sdk" 
+  buildTool: "mta"
  stages:
- Build:
- mavenExecuteStaticCodeChecks: false
- npmExecuteLint: false
- Additional Unit Tests:
- npmExecuteScripts: false
- karmaExecuteTests: false
+  Build:
+    mavenExecuteStaticCodeChecks: false
+    npmExecuteLint: false
+  Additional Unit Tests:
+    npmExecuteScripts: false
+    karmaExecuteTests: false
  Release:
   cloudFoundryDeploy: true
  tmsUpload: false
