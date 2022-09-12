@@ -26,7 +26,7 @@
  cloudFoundryDeploy:
  cloudFoundry: 
  apiEndpoint: "https://api.cf.eu10.hana.ondemand.com"
- org: "94e15310-7040-48ee-b912-a40bbf5e8fc5"
+ org: "CLD200-CF-C01"
  space: "dev"
  credentialsId: "cfdeploy"
  appName: ""
